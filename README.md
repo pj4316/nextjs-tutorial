@@ -21,3 +21,6 @@ pageRouter는 /pages 하단의 디렉터리 구조를 라우터로 활용
 
 - run
 `npm run start`
+
+# Documents
+[routing_fundamentals](./docs/routing/00_doc_routing_fundamentals.md)
