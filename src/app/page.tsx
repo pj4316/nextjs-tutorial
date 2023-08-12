@@ -3,6 +3,10 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <>Hello, NextJS!</>
+    <>
+      Hello, NextJS!
+      <br />
+      <img src={'/next.svg'}  alt={'next svg'} width={'400'}/>
+    </>
   )
 }

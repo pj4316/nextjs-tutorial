@@ -1,0 +1,10 @@
+{
+  "topics": [
+    { "id": 1, "title": "html", "body": "html is ..." },
+    { "id": 2, "title": "css", "body": "css is ..." },
+    { "id": 3, "title": "js", "body": "js is ..." },
+    { "id": 4, "title": "ts", "body": "ts is ..." },
+    { "id": 5, "title": "java", "body": "java is ..." },
+    { "id": 6, "title": "c++", "body": "c++ is ..." }
+  ]
+}
