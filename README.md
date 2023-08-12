@@ -24,3 +24,11 @@ pageRouter는 /pages 하단의 디렉터리 구조를 라우터로 활용
 
 # Documents
 [routing_fundamentals](./docs/routing/00_doc_routing_fundamentals.md)
+
+
+# Test
+
+우리는 백엔드를 쉽게 구축해서 테스트하기 위해 간단한 json을 리턴하는 REST Server인 json-server를 활용한다.
+`npx json-server --watch db.json --port 9999`
+
+이 것을 실행하면 `db.json`이라는 파일이 생성되는데, json 형식으로 되어있다.
