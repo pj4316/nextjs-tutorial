@@ -1,12 +1,22 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import {Box, Button, List, ListItem} from "@mui/material";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
-      Hello, NextJS!
-      <br />
-      <img src={'/next.svg'}  alt={'next svg'} width={'400'}/>
-    </>
+      <Box
+          sx={{
+            height: '100vh',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+            alignItems: 'space-between'
+          }}
+      >
+        <List>
+          <ListItem>
+            <Link href={'/home'}><Button>HOME</Button></Link>
+          </ListItem>
+        </List>
+      </Box>
   )
 }
