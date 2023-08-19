@@ -16,6 +16,9 @@ export default function Home() {
           <ListItem>
             <Link href={'/home'}><Button>HOME</Button></Link>
           </ListItem>
+          <ListItem>
+            <Link href={'/dashboard'}><Button>Dashboard</Button></Link>
+          </ListItem>
         </List>
       </Box>
   )
