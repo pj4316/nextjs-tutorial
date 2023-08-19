@@ -10,12 +10,7 @@ export default function Home() {
           <Box className={styles.homeHeaderItem}>
             <Image width={221} height={26} alt="dobedub logo" src="/dobedub.png" />
           </Box>
-          <Box className={styles.homeHeaderItem}
-              sx={{
-                display: 'flex',
-                gap: '8px'
-              }}
-          >
+          <Box className={styles.homeHeaderItem}>
             <Link href={'/login'}><Button variant={'text'} sx={{fontWeight: 'bold'}}>로그인</Button></Link>
             <Link href={'/sign-up'}><Button variant={'text'} sx={{fontWeight: 'bold'}}>회원가입</Button></Link>
             <Link href={'/brand-site'}><Button variant={'contained'} sx={{fontWeight: 'bold'}}>브랜드 사이트
