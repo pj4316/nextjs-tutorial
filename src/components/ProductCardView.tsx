@@ -4,11 +4,11 @@ import RefreshIcon from '@mui/icons-material/Refresh';
 
 type Props = {
   title: string,
-  description: string | undefined,
+  description?: string | undefined,
   data: any[],
   width: string | number,
   height: string | number,
-  refreshable: boolean
+  refreshable?: boolean | undefined
 }
 
 export default function ProductCardView(props: Props) {
