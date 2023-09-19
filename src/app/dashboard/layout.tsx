@@ -16,7 +16,7 @@ export default function Layout(props: Props) {
             <Image width={221} height={26} alt="dobedub logo" src="/dobedub.png" />
           </Box>
           <Box className={styles.dashboardHeaderItem}>
-            <SearchField placeholder={'작품 검색하기'} />
+            <SearchField placeholder={'작품 검색하기'} onClick={()=>{ /** TODO */}} />
             <Box sx={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '8px'}}>
               <Avatar />
               <Box sx={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '2px'}}>

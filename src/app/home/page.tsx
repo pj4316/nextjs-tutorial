@@ -25,7 +25,7 @@ export default function Home() {
           <Typography sx={{fontSize: '2.625rem'}}></Typography>
           <Typography sx={{fontSize: '2.625rem', fontWeight: 700, marginTop: '40px'}}>
             GLOBAL VOICE BANK
-            <Typography variant={'string'} sx={{color: 'red'}}> DOBEDUB 덥라이트</Typography>
+            <Typography variant={'h6'} sx={{color: 'red'}}> DOBEDUB 덥라이트</Typography>
           </Typography>
           <Button variant={'contained'} sx={{marginTop: '24px', width: '186px'}}>시작하기</Button>
         </Box>

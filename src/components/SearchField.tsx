@@ -3,7 +3,7 @@ import React from "react";
 import SearchIcon from '@mui/icons-material/Search';
 
 type Props = {
-  onClick: (e) => void,
+  onClick: (e: any) => void,
   placeholder: string | undefined
 }
 export default function SearchField(props: Props) {

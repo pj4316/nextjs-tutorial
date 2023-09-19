@@ -6,8 +6,8 @@ type Props = {
   title: string,
   description?: string | undefined,
   data: any[],
-  width: string | number,
-  height: string | number,
+  width: number,
+  height: number,
   refreshable?: boolean | undefined
 }
 
